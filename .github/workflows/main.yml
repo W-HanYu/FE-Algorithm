@@ -1,10 +1,10 @@
-name: Build app and deploy to Tencent
-on:
-  #监听push操作
-  push:
-    branches:
-      # master分支，你也可以改成其他分支
-      - master
+# name: Build app and deploy to Tencent
+# on:
+#   #监听push操作
+#   push:
+#     branches:
+#       # master分支，你也可以改成其他分支
+#       - master
 
 # jobs:
 #   # 任务ID

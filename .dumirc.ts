@@ -1,5 +1,4 @@
 import { defineConfig } from 'dumi';
-
 export default defineConfig({
   favicons: [
     'https://raw.githubusercontent.com/paiDaXing-web/learning-materials-pdf/main/logo.png',
@@ -21,7 +20,7 @@ export default defineConfig({
       { title: '每日一题', link: '/dailyquestion/two-sum' },
       {
         title: 'Github',
-        link: 'https://github.com/paiDaXing-web/You-Dont-Know-Algorithm',
+        link: 'https://github.com/W-HanYu/FE-Algorithm',
       },
     ],
     sidebar: {
@@ -98,8 +97,8 @@ export default defineConfig({
       ],
     },
     prefersColor: { default: 'dark', switch: true },
-    footer: `Greenet MIT Licensed | Copyright © 2023-present
+    footer: `Ustinian MIT Licensed | Copyright © 2023-present
 <br />
-Powered by Greenet`,
+Powered by Ustinian`,
   },
 });
