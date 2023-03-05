@@ -1,7 +1,7 @@
 {
-  "name": "You-Dont-Know-Algorithm",
+  "name": "FE-Algorithm",
   "version": "0.0.1",
-  "description": "You-Dont-Know-Algorithm",
+  "description": "FE-Algorithm",
   "license": "MIT",
   "scripts": {
     "build": "dumi build",
