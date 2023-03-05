@@ -1,14 +1,14 @@
 import { defineConfig } from 'dumi';
 export default defineConfig({
   favicons: [
-    'https://raw.githubusercontent.com/paiDaXing-web/learning-materials-pdf/main/logo.png',
+    './favicon.ico',
   ],
   base: '/algorithm',
   publicPath: '/algorithm/',
   themeConfig: {
     name: 'Ustinian',
     title: 'algorithm',
-    logo: 'https://raw.githubusercontent.com/paiDaXing-web/learning-materials-pdf/main/logo.png',
+    logo: false,
     nav: [
       {
         title: '算法',

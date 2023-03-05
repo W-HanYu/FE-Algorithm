@@ -1,7 +1,7 @@
 ---
 hero:
   title: Algorithm
-  description: You-Dont-Know-Algorithm
+  description: FE-Algorithm
   actions:
     - text: 开始学习
       link: /datastr/structure
@@ -18,5 +18,3 @@ features:
     emoji: 🚀
     description: 无需leecode刷题，在线demo，一对一测试，🔥🔥🔥 免费切好用🔥🔥🔥
 ---
-
-You-Dont-Know-Algorithm
