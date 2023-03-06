@@ -8,7 +8,8 @@
     "dev": "dumi dev",
     "git": "sh git.sh",
     "prepare": "husky install && dumi setup",
-    "start": "npm run dev"
+    "start": "npm run dev",
+    "deploy": "gh-pages -d build"
   },
   "commitlint": {
     "extends": [
@@ -20,10 +21,12 @@
       "prettier --write --no-error-on-unmatched-pattern"
     ]
   },
+  "homepage": "http://W-HanYu.github.io/FE-Algorithm",
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
     "dumi": "^2.0.2",
+    "gh-pages": "^5.0.0",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1"
