@@ -26,50 +26,10 @@ export default defineConfig({
     sidebar: {
       '/algorithm/dynamic': [
         {
-          title: '动态规划',
-          children: [
-            {
-              link: '/algorithm/dynamic/subsequence',
-              title: '01.不同的子序列',
-              order: 1,
-              frontmatter: { title: '' },
-            },
-            {
-              link: '/algorithm/dynamic/stockTiming',
-              title: '02.买卖股票的最佳时机 III',
-              order: 2,
-              frontmatter: { title: '' },
-            },
-            {
-              link: '/algorithm/dynamic/decoding',
-              title: '03.解码问题',
-              order: 3,
-              frontmatter: { title: '' },
-            },
-          ],
-        },
-        {
-          title: '栈相关',
-          children: [
-            {
-              link: '/algorithm/stack/reversePolish',
-              title: '01.逆波兰表达式求值',
-              order: 1,
-              frontmatter: { title: '' },
-            },
-            {
-              link: '/algorithm/stack/stockTiming',
-              title: '02.基本计算器',
-              order: 2,
-              frontmatter: { title: '' },
-            },
-            {
-              link: '/algorithm/stack/decoding',
-              title: '03.删除相邻重复项',
-              order: 3,
-              frontmatter: { title: '' },
-            },
-          ],
+          title:'数组',
+          children:[
+
+          ]
         },
         {
           title: '链表相关',
@@ -94,7 +54,78 @@ export default defineConfig({
             },
           ],
         },
+        {
+          title:'哈希表',
+          children:[]
+        },
+        {
+          title:'字符串',
+          children:[]
+        },
+        {
+          title:'双指针',
+          children:[]
+        },
+        {
+          title: '栈与队列',
+          children: [
+            {
+              link: '/algorithm/stack/reversePolish',
+              title: '01.逆波兰表达式求值',
+              order: 1,
+              frontmatter: { title: '' },
+            },
+            {
+              link: '/algorithm/stack/stockTiming',
+              title: '02.基本计算器',
+              order: 2,
+              frontmatter: { title: '' },
+            },
+            {
+              link: '/algorithm/stack/decoding',
+              title: '03.删除相邻重复项',
+              order: 3,
+              frontmatter: { title: '' },
+            },
+          ],
+        },
+        {
+          title:'二叉树',
+          children:[]
+        },
+        {
+          title:'回溯算法',
+          children:[]
+        },
+        {
+          title:'贪心算法',
+          children:[]
+        },
+        {
+          title: '动态规划',
+          children: [
+            {
+              link: '/algorithm/dynamic/subsequence',
+              title: '01.不同的子序列',
+              order: 1,
+              frontmatter: { title: '' },
+            },
+            {
+              link: '/algorithm/dynamic/stockTiming',
+              title: '02.买卖股票的最佳时机 III',
+              order: 2,
+              frontmatter: { title: '' },
+            },
+            {
+              link: '/algorithm/dynamic/decoding',
+              title: '03.解码问题',
+              order: 3,
+              frontmatter: { title: '' },
+            },
+          ],
+        },
       ],
+
     },
     prefersColor: { default: 'dark', switch: true },
     footer: `Ustinian MIT Licensed | Copyright © 2023-present

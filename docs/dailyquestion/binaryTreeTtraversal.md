@@ -1,5 +1,5 @@
 ---
-title: 7.二叉树的遍历
+title: 99.二叉树的遍历
 toc: content
 tocDepth: 4
 ---
@@ -133,7 +133,7 @@ traversal(cur->right, vec); // 右
 
 </details>
 
-## 代码
+## 解法一
 
 javascript
 
@@ -263,3 +263,5 @@ function postorderTraversal(node: TreeNode | null): number[] {
 }
 
 ```
+
+## 解法二
