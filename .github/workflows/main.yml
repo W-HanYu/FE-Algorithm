@@ -1,4 +1,4 @@
-name: Build app and deploy to Tencent
+name: FE-Alogarithm
 on:
   #监听push操作
   push:
@@ -31,5 +31,5 @@ jobs:
         with:
           ACCESS_TOKEN: ${{ secrets.DEPLOY_KEY }}
           connect_timeout: 10s
-          branch: master # 打包的内容放到build分支下
-          folder: dist
+          branch: gh-pages
+          folder: 'dist/'
