@@ -10,10 +10,7 @@ export default defineConfig({
     title: 'algorithm',
     logo: false,
     nav: [
-      {
-        title: '算法',
-        link: '/algorithm/dynamic/subsequence',
-      },
+      { title: '算法',link: '/algorithm/stack/reversePolish',},
       { title: '挑战', link: '/challenge' },
       { title: '数据结构', link: '/datastr/structure' },
       { title: 'React中的算法', link: '/react/bitfield' },
@@ -24,7 +21,7 @@ export default defineConfig({
       },
     ],
     sidebar: {
-      '/algorithm/dynamic': [
+      '/algorithm/stack': [
         {
           title:'数组',
           children:[
