@@ -42,6 +42,7 @@ tocDepth: 4
 ## 解法
 
 #### 解题思路
+
 可以转化为字符窜进行反转，其实没必要；
 换一种思路：就是拿到该数字的最后一位进行数字反转运算；
 以`12345`为例，先拿到5，在拿到4，... 最后拿到1；那么怎么可以拿到呢？
@@ -58,7 +59,6 @@ tocDepth: 4
 如果某个数字大于 214748364那后面就不用再判断了，肯定溢出了。
 如果某个数字等于 214748364呢，这对应到上图中第三、第四、第五排的数字，需要要跟最大数的末尾数字比较，如果这个数字比7还大，说明溢出了。
 
-
 ### 复杂度
 
 ### 代码
@@ -71,24 +71,23 @@ javascript
  * @return {number}
  */
 var reverse = function(x) {
-    let rev = 0;
-    while (x !== 0) {
-        const digit = x % 10;
-        x = ~~(x / 10);
-        rev = rev * 10 + digit;
-        if (rev < Math.pow(-2, 31) || rev > Math.pow(2, 31) - 1) {
-            return 0;
-        }
+    let res = 0;
+    while(x !== 0){
+        //拿到数字最后一位
+        let tem = x % 10
+        x = ~~(x/10)  // ~~ 两次按位与 表示 保持原值 但对于 boolean 回转化为数值
+        res = res * 10 + tem
+        if(res < Math.pow(-2,31) || res > Math.pow(2,31)-1) return 0;
     }
-    return rev;
+    return res
     
 };
 
 ```
 
-
 typescript
-```ts
+
+```js
 function reverse(x: number): number {
     if (x === 0) {
         return 0
@@ -102,7 +101,7 @@ function reverse(x: number): number {
     }
     
 
-    if (result >= Math.pow(2,31) || result <Math.pow(-2,31) ) return 0;
+    if (result >= Math.pow(2,31) || result < Math.pow(-2,31) ) return 0;
     return result;
     
 };
