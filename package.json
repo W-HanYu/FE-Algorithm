@@ -9,7 +9,7 @@
     "git": "sh git.sh",
     "prepare": "husky install && dumi setup",
     "start": "npm run dev",
-    "deploy": "gh-pages -d build"
+    "deploy": "dumi build && gh-pages -d dist"
   },
   "commitlint": {
     "extends": [
