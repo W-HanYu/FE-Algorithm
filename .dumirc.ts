@@ -1,7 +1,7 @@
 import { defineConfig } from 'dumi';
 export default defineConfig({
   favicons: [
-    './favicon.ico',
+    'public/favicon.ico',
   ],
   base: '/algorithm',
   publicPath: '/algorithm/',
@@ -10,18 +10,18 @@ export default defineConfig({
     title: 'algorithm',
     logo: false,
     nav: [
+      { title: '每日一题', link: '/dailyquestion/two-sum' },
       { title: '算法',link: '/algorithm/stack/reversePolish',},
       { title: '挑战', link: '/challenge' },
       { title: '数据结构', link: '/datastr/structure' },
       { title: 'React中的算法', link: '/react/bitfield' },
-      { title: '每日一题', link: '/dailyquestion/two-sum' },
       {
         title: 'Github',
         link: 'https://github.com/W-HanYu/FE-Algorithm',
       },
     ],
     sidebar: {
-      '/algorithm/stack': [
+      '/algorithm/dynamic/': [
         {
           title:'数组',
           children:[
@@ -73,8 +73,8 @@ export default defineConfig({
               frontmatter: { title: '' },
             },
             {
-              link: '/algorithm/stack/stockTiming',
-              title: '02.基本计算器',
+              link: '/algorithm/stack/topKFrequentElements',
+              title: '02.前K个高频元素',
               order: 2,
               frontmatter: { title: '' },
             },

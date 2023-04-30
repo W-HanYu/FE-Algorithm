@@ -1,11 +1,11 @@
 ---
 title: 02.前 K 个高频元素
 toc: content
-nav:
-  title: 算法
-group:
-  title: 栈
-  order: 1
+# nav:
+#   title: 算法
+# group:
+#   title: 栈与队列
+#   order: 2
 ---
 
 # 题目

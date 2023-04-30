@@ -1,11 +1,11 @@
 ---
 title: 01.逆波兰表达式求值
 toc: content
-nav:
-  title: 算法
-group:
-  title: 栈
-  order: 1
+# nav:
+#   title: 算法
+# group:
+#   title: 栈与队列
+#   order: 1
 ---
 
 ## 01.不同的子序列
