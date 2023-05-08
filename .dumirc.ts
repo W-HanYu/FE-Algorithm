@@ -7,7 +7,7 @@ export default defineConfig({
   publicPath: '/algorithm/',
   themeConfig: {
     name: 'Ustinian',
-    title: 'algorithm',
+    // title: 'algorithm',
     logo: false,
     nav: [
       { title: '每日一题', link: '/dailyquestion/two-sum' },
