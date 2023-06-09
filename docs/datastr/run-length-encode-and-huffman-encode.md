@@ -90,4 +90,4 @@ AAAAABBBBCCC
 
 ## 相关题目
 
-[900.rle-iterator](../problems/900.rle-iterator.md)
+[900.rle-iterator](https://leetcode.cn/problems/rle-iterator/)
