@@ -26,6 +26,7 @@ jobs:
         # 因为构建之后，需要把代码上传到服务器上，所以需要连接到ssh，并且做一个拷贝操作
         uses: cross-the-world/scp-pipeline@master
         env:
+          CI: true
           WELCOME: 'ssh scp ssh pipelines'
           LASTSSH: 'Doing something after copying'
         with:
@@ -33,3 +34,4 @@ jobs:
           connect_timeout: 10s
           branch: gh-pages
           folder: 'dist/'
+        
