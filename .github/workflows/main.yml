@@ -32,6 +32,6 @@ jobs:
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           connect_timeout: 10s
-          branch: gh-pages
-          folder: 'dist/'
-        
+          target_branch: gh-pages
+          publish_dir: 'dist/'
+
