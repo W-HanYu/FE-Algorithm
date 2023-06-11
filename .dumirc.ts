@@ -1,10 +1,11 @@
 import { defineConfig } from 'dumi';
+const repo = 'FE_Algorithm'; // 项目名
 export default defineConfig({
   favicons: [
     'public/favicon.ico',
   ],
-  base: '/algorithm',
-  publicPath: '/algorithm/',
+  base: process.env.NODE_ENV === 'production' ? `/${repo}/` : '/',
+  publicPath: process.env.NODE_ENV === 'production' ? `/${repo}/` : '/',
   themeConfig: {
     name: 'Ustinian',
     // title: 'algorithm',
