@@ -1,5 +1,5 @@
 import { defineConfig } from 'dumi';
-const repo = 'FE_Algorithm'; // 项目名
+const repo = 'FE-Algorithm'; // 项目名
 export default defineConfig({
   favicons: [
     'public/favicon.ico',
