@@ -2,14 +2,14 @@ import { defineConfig } from 'dumi';
 const repo = 'FE-Algorithm'; // 项目名
 export default defineConfig({
   favicons: [
-    'public/favicon.ico',
+    '/favicon.ico',
   ],
   base: process.env.NODE_ENV === 'production' ? `/${repo}/` : '/',
   publicPath: process.env.NODE_ENV === 'production' ? `/${repo}/` : '/',
   themeConfig: {
     name: 'Ustinian',
     // title: 'algorithm',
-    logo: false,
+    logo: '/logo.png',
     nav: [
       { title: '每日一题', link: '/dailyquestion/two-sum' },
       { title: '算法',link: '/algorithm/stack/reversePolish',},
