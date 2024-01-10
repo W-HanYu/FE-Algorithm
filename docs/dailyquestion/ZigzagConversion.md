@@ -1,5 +1,5 @@
 ---
-title: 6.N 字形变换
+title: 06.N 字形变换
 toc: content
 tocDepth: 4
 ---

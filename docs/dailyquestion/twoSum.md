@@ -1,5 +1,5 @@
 ---
-title: 1.两数之和
+title: 01.两数之和
 toc: content
 tocDepth: 4
 ---

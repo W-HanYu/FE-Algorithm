@@ -1,5 +1,5 @@
 ---
-title: 7.整数反转
+title: 07.整数反转
 toc: content
 tocDepth: 4
 ---
@@ -78,7 +78,7 @@ var reverse = function(x) {
         if(res < Math.pow(-2,31) || res > Math.pow(2,31)-1) return 0;
     }
     return res
-    
+
 };
 
 ```
@@ -97,10 +97,10 @@ function reverse(x: number): number {
     } else {
         result = Number(String(x).split('').reverse().join(''))
     }
-    
+
 
     if (result >= Math.pow(2,31) || result < Math.pow(-2,31) ) return 0;
     return result;
-    
+
 };
 ```

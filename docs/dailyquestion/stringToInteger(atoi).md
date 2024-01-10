@@ -1,5 +1,5 @@
 ---
-title: 8.字符串转换整数 (atoi)
+title: 08.字符串转换整数 (atoi)
 toc: content
 tocDepth: 4
 ---
@@ -129,9 +129,9 @@ function myAtoi(s: string): number {
 |        | ' '  |  +/-  | number  | other|
 |  ----  | ----  |  ----  | ----  | ---- |
 |  start  | start  |  signed  | in_number  | end |
-|  signed  | end  |  end  | in_number  | end |	
-|  start  | end  |  end  | in_number  | end |	
-|  start  | end  |  end  | end  | end |	
+|  signed  | end  |  end  | in_number  | end |
+|  start  | end  |  end  | in_number  | end |
+|  start  | end  |  end  | end  | end |
 
 
 

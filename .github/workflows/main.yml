@@ -34,4 +34,3 @@ jobs:
           connect_timeout: 10s
           target_branch: gh-pages
           # publish_dir: 'dist/'
-
